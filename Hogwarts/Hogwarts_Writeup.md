@@ -51,7 +51,7 @@ machine.
 
 SSH into the machine
 
-'ssh neville@<IP> -p <PORT>'
+ssh neville@<IP> -p <PORT>
 
 ![](https://github.com/Cipher7/Writeups/blob/main/Hogwarts/images/user.png?raw=true)`
 
