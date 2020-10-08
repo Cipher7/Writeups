@@ -7,7 +7,7 @@
                                   
 Scanning
 
- `nmap -sS -A -vvv -oN nmap-initial &lt;IP&gt;`
+ `nmap -sS -A -vvv -oN nmap-initial <IP>`
 
 When I performed a rustscan on the machine, many different ports turned up. Also all the ports, passwords etc. keep changing on this machine so you probably wouldn’t be getting the same ports and passwords as me.
 
