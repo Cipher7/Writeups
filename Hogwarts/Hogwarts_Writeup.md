@@ -69,8 +69,8 @@ Ahah! There you go, a SUID vulnerability! Lets go to GTFO bins and get the explo
 
 Time to Root!
 
-Let’s use the last set of commands of “ip” in GTFO bins. After executing the
+Let’s use the last set of commands of “ip” in GTFO bins. After executing the second , we get root!!
 
-second , we get root!!
+![](https://github.com/Cipher7/Writeups/blob/main/Hogwarts/images/root_LI.jpg?raw=true)
 
 Now we are root! Let’s get the root flag and put our username in the king.txt file. But wait, there isn’t a king.txt! Just create one in the root folder and put your username in it, you will then become the king and start searching for flags in the user folders.
