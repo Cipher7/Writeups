@@ -1,11 +1,10 @@
-                             Hogwarts Writeup(KoTH)
+                                                         Hogwarts Writeup(KoTH)
     
-                                                 ~by Cipher007
+                                                                               ~by Cipher007
     
-                               Discord: Cipher007#1099 
-    
-                                  Credits: Rogue-CTF
-
+                                                        Discord: Cipher007#1099 
+                                                        Credits: Rogue-CTF
+                                  
 Scanning
 
  `nmap -sS -A -vvv -oN nmap-initial &lt;IP&gt;`
@@ -50,11 +49,15 @@ Note that **ssh is also running on a different port**. Let us login to the
 
 machine.
 
+SSH into the machine
+
 `ssh neville@<IP> -p <PORT>
 
 ![](https://github.com/Cipher7/Writeups/blob/main/Hogwarts/images/user.png?raw=true)`
 
 Enter the password and now you’re user on the box! Get the user flag.
+
+Linpeas
 
 I used linpeas to find ways to privesc.
 
@@ -63,6 +66,8 @@ I used linpeas to find ways to privesc.
 ![](https://github.com/Cipher7/Writeups/blob/main/Hogwarts/images/linpeas.png?raw=true)
 
 Ahah! There you go, a SUID vulnerability! Lets go to GTFO bins and get the exploit.
+
+Root!!
 
 Let’s use the last set of commands of “ip” in GTFO bins. After executing the
 
