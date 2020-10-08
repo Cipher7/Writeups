@@ -73,8 +73,4 @@ Let’s use the last set of commands of “ip” in GTFO bins. After executing t
 
 second , we get root!!
 
-![](https://github.com/Cipher7/Writeups/blob/main/Hogwarts/images/root.png?raw=true)
-
-
-
 Now we are root! Let’s get the root flag and put our username in the king.txt file. But wait, there isn’t a king.txt! Just create one in the root folder and put your username in it, you will then become the king and start searching for flags in the user folders.
