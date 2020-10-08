@@ -67,7 +67,7 @@ I used linpeas to find ways to privesc.
 
 Ahah! There you go, a SUID vulnerability! Lets go to GTFO bins and get the exploit.
 
-Root!!
+Time to Root!
 
 Let’s use the last set of commands of “ip” in GTFO bins. After executing the
 
